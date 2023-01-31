@@ -6,5 +6,7 @@ class CreateBooks < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
+    
+    add_column :books, :detail, :text
   end
 end
